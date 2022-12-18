@@ -1,6 +1,6 @@
 FROM ghcr.io/downunderctf/docker-vendor/nsjail:debian-10 AS nsjail
 
-FROM node:16.17.0
+FROM node:16.19
 
 COPY --from=nsjail /docker-init /docker-init
 COPY --from=nsjail /usr/bin/nsjail /usr/bin/
