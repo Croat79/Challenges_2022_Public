@@ -1,5 +1,5 @@
 # start by pulling the python image
-FROM python:3.8-alpine
+FROM python:3.13.0b1-alpine
 
 # install gcc
 RUN apk add build-base
