@@ -10,4 +10,4 @@ MarkupSafe==2.1.1
 PyJWT==2.4.0
 SQLAlchemy==1.4.40
 Werkzeug==2.2.2
-zipp==3.8.1
+zipp==3.19.1
