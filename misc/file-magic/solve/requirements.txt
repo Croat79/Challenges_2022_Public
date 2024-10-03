@@ -1,3 +1,4 @@
 pycryptodome==3.15.0
 Pillow==9.2.0
 pwntools==4.8.0
+capstone>=6.0.0a1 # not directly required, pinned by Snyk to avoid a vulnerability
