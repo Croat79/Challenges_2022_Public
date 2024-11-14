@@ -1,4 +1,4 @@
-FROM python:3.10.7
+FROM python:3.14.0a1
 
 RUN /usr/sbin/useradd --no-create-home -u 1000 ctf
 
