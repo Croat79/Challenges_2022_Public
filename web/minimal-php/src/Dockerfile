@@ -1,4 +1,4 @@
-FROM php:8.1-apache
+FROM php:8.5.3RC1-apache
 
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" && \
     sed -i 's/^log_errors = On$/log_errors = Off/' "$PHP_INI_DIR/php.ini"
